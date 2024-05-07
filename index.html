@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Menu Bar</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="navbar" id="navbar">
+    <img src="assets/Logo-website-header.png" alt="" />
+    <a href="https://gsbs.co.in/" class="active">Home</a>
+    <a href="https://gsbs.co.in/past-editions/">Past Editions</a>
+    <a href="https://gsbs.co.in/awards/">Awards</a>
+    <a href="https://gsbs.co.in/nomination/">Blog</a>
+    <a href="https://gsbs.co.in/blog/">Blog</a>
+    <a href="https://gsbs.co.in/contact/">Contact</a>
+    <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+      <i class="fa fa-bars"></i>
+    </a>
+    <button class="responsive-button">Enquire Now</button>
+    
+  </div>
+  <div class="video-container">
+    <video id="myVideo" class="video" autoplay muted loop>
+      <source src="assets/Video-with-venue.mp4"autoplay loop muted="mute" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+  <div class="heading-container">
+    <h1 id="dynamic-heading">Past Editions Supported By</h1>
+</div>
+  <!--image slides -->
+  <div class="gallery">
+   
+    <div class="image-container">
+      <img src="assets/pic1.webp" alt="Image 1">
+    </div>
+    <div class="image-container">
+      <img src="assets/pic2.webp" alt="Image 2">
+    </div>
+    <div class="image-container">
+      <img src="assets/pic3.webp" alt="Image 3">
+    </div>
+    <div class="image-container">
+      <img src="assets/pic4.webp" alt="Image 4">
+    </div>
+    <div class="image-container">
+      <img src="assets/pic5.webp" alt="Image 5">
+    </div>
+    <div class="image-container">
+      <img src="assets/pic6.webp" alt="Image 6">
+    </div>
+    <div class="image-container">
+      <img src="assets/pic7.webp" alt="Image 7">
+    </div>
+    <div class="image-container">
+      <img src="assets/pic8.webp" alt="Image 8">
+    </div>
+  </div>
+  
+<div class="container">
+  <div class="image-container">
+      <img src="assets/COVER-PIC-2048x1005.png" alt="Image">
+  </div>
+  <div class="quote-container">
+      <blockquote>
+        <p
+        class="section1-right-wrapper-heading"
+        style="
+         text-transform: capitalize;
+          font-size: 25px;
+          font-weight: bold;
+          font-family:'Courier New', Courier, monospace;
+          color:#06e611;">
+      Development, Redevelopment and Regeneration
+      </p>
+          <p><b> GSBS (Global Smart Build Summit and Awards – 7th Edition) </b>
+            aims to navigate 
+            the dynamic landscape, offering a comprehensive overview that encapsulates current market dynamics, regulatory shifts, economic influences, and evolving consumer preferences. We hope to bring every stakeholder involved in the construction industry to a common platform where they can explore the regulatory framework governing sustainable development, shedding light on government policies and legal considerations that shape the industry and participate in advanced innovation driven procurement goals laid down in the form of pre-scheduled B2B meetings.
+           </p>
+           <button class="center" ><a href="https://gsbs.co.in/about-gsbs/">Read more </a></button>
+        <button class="section1-left-wrapper-button"style="
+        color:#06e611;
+        background-color:white;
+        " >Download Brochure </button>
+      </blockquote>  
+  </div>
+</div>
+<h1 style="text-align: center;"><b>What Happens At Global Smart Build Summit & Awards ?</b></h1>
+  <h2 style="text-align: center;color:#06e611;">Key Highlights</h2>
+<div class="container">
+ 
+  <div class="image-box">
+      <img src="assets/img1.jpg" alt="Image 1">
+      <div class="text">Unveiling of the Grand Event & Inauguration by Government of India</div>
+  </div>
+  <div class="image-box">
+      <img src="assets/img2.png" alt="Image 2">
+      <div class="text">Conference & Innovation Showcases to audience profile of over 300 + Industry Experts & Decision Maker’s</div>
+  </div>
+  <div class="image-box">
+      <img src="assets/img3.png" alt="Image 3">
+      <div class="text">B2B , B2G Meetings and Inspiring Networking Sessions</div>
+  </div>
+  <div class="image-box">
+      <img src="assets/img4.jpg" alt="Image 4">
+      <div class="text">Illustrating magnificent projects & products at the #Time2Leap National Awards</div>
+  </div>
+</div>
+<div class="container1" > 
+  <h1 style="text-align: center; background-color: #06e611;color:white">Who Can Attend</h1>
+   <img src="assets/svg.png" alt="svg">
+   <img src="assets/svg2.png" alt="svg">
+   <img src="assets/svbg3.png" alt="svg">
+</div>
+<form id="myForm"><h2>Stay in the loop and never miss a beat! Subscribe to our newsletter for the latest updates, exclusive content, and exciting offers delivered straight to your inbox. Don’t miss out—join our community today!</h2>
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" required>
+  <span id="nameError" class="error"></span>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required>
+  <span id="emailError" class="error"></span>
+
+  <input type="submit" value="Subscribe newsletter">
+</form>
+</body>
+</html>
